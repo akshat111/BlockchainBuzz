@@ -48,7 +48,7 @@ const Coin = () => {
     fetchHistoricalData();
   }, [currency]);
 
-  if ((coinData, historicalData)) {
+  if ((coinData && historicalData)) {
     return (
       <div className="coin">
         <div className="coin-name">
