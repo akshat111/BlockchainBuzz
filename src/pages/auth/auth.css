@@ -1,0 +1,122 @@
+.auth-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(84, 3, 255, 0.1), rgba(105, 2, 153, 0.1));
+}
+
+.auth-container {
+  display: flex;
+  background: #181818;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 700px;
+  max-width: 95vw;
+}
+
+.auth-left,
+.auth-right {
+  flex: 1;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-left {
+  border-right: 1px solid #333;
+}
+
+.auth-left h2,
+.auth-right h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.auth-left form,
+.auth-right form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.auth-left input,
+.auth-right input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+}
+
+.auth-left button,
+.auth-right button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #5403ff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.auth-left button:hover,
+.auth-right button:hover {
+  background: #6a0299;
+}
+
+.auth-right {
+  background: #242424;
+}
+.auth-right p {
+  color: #aaa;
+  margin-top: 20px;
+}
+.auth-right a {
+  color: #5403ff;
+  text-decoration: none;
+}
+.auth-right a:hover {
+  text-decoration: underline;
+}
+.auth-right .social-login {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.auth-right .social-login button {
+  background: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.auth-right .social-login button:hover {
+  background: #444;
+}
+.auth-right .social-login img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.auth-right .social-login span {
+  margin-left: 8px;
+  color: #fff;
+}
+.auth-left img,
+.auth-right img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.auth-left .logo,
+.auth-right .logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
